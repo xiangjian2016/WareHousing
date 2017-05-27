@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 不带圆角 白色背景 灰色边框 无下边框 长方体 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <solid android:color="@color/corner_round_background_normal" />
+            <stroke
+                android:width="1px"
+                android:color="@color/corner_round_border" />
+        </shape>
+    </item>
+    <item
+        android:left="1px"
+        android:right="1px"
+        android:bottom="1px" >
+        <shape>
+            <solid android:color="@color/corner_round_background_normal" />
+            <stroke
+                android:width="1px"
+                android:color="@color/corner_round_background_normal" />
+        </shape>
+    </item>
+</layer-list>

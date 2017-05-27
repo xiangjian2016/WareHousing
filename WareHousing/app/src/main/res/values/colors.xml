@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="task_failed_red">#7fff8400</color>
+    <color name="task_speed_gray">#ff646464</color>
+    <color name="neighbor_list_large">#ff536781</color>
+    <color name="back_ground">#ffd5e2f5</color>
+    <color name="big_txt_color">#ff536781</color>
+    <color name="six_color">#ff666666</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ffffffff</color>
+    <color name="viewfinder_corner">#ff2fa8fd</color>
+    <color name="viewfinder_laser">#ff00ffff</color>
+    <color name="viewfinder_mask">#80000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="setting_gray">#fff1f1f1</color>
+    <color name="task_state_normal">#7fffffff</color>
+    <color name="accelerate_proporation_color">#7fffffff</color>
+    <color name="dead_link_color">#ff19a6d8</color>
+    <color name="sniffer_list_bg_color">#ffffffff</color>
+    <color name="_FFFFFFFF">#ffffffff</color>
+    <color name="_80FFFFFF">#80ffffff</color>
+    <color name="weibo_bg_hover">#ff00aeff</color>
+    <color name="weibo_bg_normal">#ff0d162b</color>
+    <color name="website_import_tabtext_select">#ff333333</color>
+    <color name="website_import_tabtext_unselect">#ff999999</color>
+    <color name="xl_dlg_left_btn_normal">#ff0097e8</color>
+    <color name="xl_dlg_right_btn_normal">#ff22b2ff</color>
+    <color name="xl_dlg_btn_hover">#7f008ee6</color>
+    <color name="shake_transparent">#20000000</color>
+    <color name="nonet_normal">#ff0097e8</color>
+    <color name="nonet_hover">#ff2bb5ff</color>
+    <color name="red">#FF1014</color>
+    <color name="gray">#808080</color>
+    <!-- 圆角边框颜色 -->
+    <color name="corner_round_border">#CCCCCC</color>
+    <!-- 圆角边框颜色 -正常-->
+    <color name="corner_round_background_normal">#FFFFFF</color>
+    <!-- 圆角边框颜色 -按下-->
+    <color name="corner_round_background_pressed">#00A6FF</color>
+</resources>

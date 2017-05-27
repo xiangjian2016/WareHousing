@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/main_default_bg"
+    android:orientation="vertical"
+    android:paddingBottom="7.0dip"
+    android:paddingLeft="7.0dip"
+    android:paddingRight="7.0dip"
+    android:paddingTop="7.0dip" >
+
+    <include
+        android:id="@id/bt_createtask_title_layout"
+        layout="@layout/activity_common_title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/login_dialog_transparent_bg"
+        android:orientation="vertical"
+        android:paddingBottom="21.0dip"
+        android:paddingLeft="14.0dip"
+        android:paddingRight="14.0dip"
+        android:paddingTop="21.0dip" > 
+    
+   
+	    <LinearLayout 
+	        android:id="@+id/ll_view_student_form"
+	        android:orientation="vertical" 
+	        android:visibility="visible" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+	        
+	    	<include android:visibility="visible" 
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" 
+	            layout="@layout/activity_config_form" />
+	    </LinearLayout>
+        
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginTop="14.0dip"
+        android:gravity="bottom|center"
+        android:text="@string/prompt"
+        android:textColor="#ffffffff"
+        android:textSize="13.0sp" />
+
+</LinearLayout>

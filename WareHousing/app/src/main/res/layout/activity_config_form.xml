@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null"
+    android:orientation="vertical" >  
+    
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" 
+		    android:orientation="vertical"
+		    android:paddingBottom="6dp"
+		    android:paddingTop="6dp">
+
+		    <RelativeLayout
+		        android:id="@+id/rl_request_inteval"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="25dp"
+		        android:paddingTop="10dp"
+		    	android:background="@drawable/selector_corner_round_top"
+		    	android:clickable="true" >
+
+		        <TextView
+		            android:id="@+id/tv_request_inteval_lable"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_alignParentTop="true"
+		            android:text="@string/config_scan_inteval_set"
+		            android:textColor="@color/gray" />
+
+		        <TextView
+		            android:id="@+id/tv_request_inteval_value"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBaseline="@+id/tv_request_inteval_lable"
+		            android:layout_alignBottom="@+id/tv_request_inteval_lable"
+		            android:layout_marginLeft="20dp"
+		            android:layout_toRightOf="@+id/tv_request_inteval_lable"
+		            android:text="@null"
+		            android:textColor="@color/gray" />
+		    </RelativeLayout>
+		    
+		    <RelativeLayout
+		        android:id="@+id/rl_student_show_time"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="25dp"
+		        android:paddingTop="10dp"
+			    android:background="@drawable/selector_corner_round_middle"
+			    android:clickable="true" >
+
+		        <TextView
+		            android:id="@+id/tv_config_student_show_time_lable"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_alignParentTop="true"
+		            android:text="@string/config_student_show_time"
+		            android:textColor="@color/gray" />
+
+		        <TextView
+		            android:id="@+id/tv_config_student_show_time_value"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBaseline="@+id/tv_config_student_show_time_lable"
+		            android:layout_alignBottom="@+id/tv_config_student_show_time_lable"
+		            android:layout_marginLeft="20dp"
+		            android:layout_toRightOf="@+id/tv_config_student_show_time_lable"
+		            android:text="@null"
+		            android:textColor="@color/gray" />
+		    </RelativeLayout>
+		    
+		    <RelativeLayout
+		        android:id="@+id/rl_config_synchronous_scan_record"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="25dp"
+		        android:paddingTop="10dp"
+			    android:background="@drawable/selector_corner_round_middle"
+			    android:clickable="true" >
+
+		        <TextView
+		            android:id="@+id/tv_config_synchronous_scan_record_lable"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_alignParentTop="true"
+		            android:text="@string/config_synchronous_scan_record"
+		            android:textColor="@color/gray" />
+
+		        <TextView
+		            android:id="@+id/tv_config_synchronous_scan_record_value"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBaseline="@+id/tv_config_synchronous_scan_record_lable"
+		            android:layout_alignBottom="@+id/tv_config_synchronous_scan_record_lable"
+		            android:layout_marginLeft="20dp"
+		            android:layout_toRightOf="@+id/tv_config_synchronous_scan_record_lable"
+		            android:text="@null"
+		            android:textColor="@color/gray" />
+		    </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/rl_flashlight_set"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="25dp"
+		        android:paddingTop="10dp"
+			    android:background="@drawable/selector_corner_round_bottom"
+			    android:clickable="true" >
+
+		        <TextView
+		            android:id="@+id/tv_flashlight_set_lable"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_alignParentTop="true"
+		            android:text="@string/config_flashlight_set"
+		            android:textColor="@color/gray" />
+
+		        <TextView
+		            android:id="@+id/tv_quick_scan_inteval_value"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBaseline="@+id/tv_flashlight_set_lable"
+		            android:layout_alignBottom="@+id/tv_flashlight_set_lable"
+		            android:layout_marginLeft="20dp"
+		            android:layout_toRightOf="@+id/tv_flashlight_set_lable"
+		            android:text="@null"
+		            android:textColor="@color/gray" />
+		    </RelativeLayout>
+		    
+		</LinearLayout>
+
+</LinearLayout>

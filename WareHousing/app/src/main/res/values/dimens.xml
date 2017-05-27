@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bt_cm_textsize_13">13.0sp</dimen>
+    <dimen name="bt_cm_textsize_14">14.0sp</dimen>
+    <dimen name="bt_cm_textsize_16">16.0sp</dimen>
+    <dimen name="bt_cm_textsize_17">17.0sp</dimen>
+</resources>

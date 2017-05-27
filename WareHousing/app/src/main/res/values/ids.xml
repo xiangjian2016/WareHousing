@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="main_page_metro_quick_mode" type="id">false</item>
+    <item name="main_page_metro_standard_mode" type="id">false</item>
+    <item name="main_page_metro_manual_mode" type="id">false</item>
+    <item name="bt_createtask_title_layout" type="id">false</item>
+    <item name="main_page_metro_set" type="id">false</item>
+    <item name="common_title_bar" type="id">false</item>
+    <item name="titlebar_left" type="id">false</item>
+    <item name="titlebar_title" type="id">false</item>
+    <item name="titlebar_right" type="id">false</item>
+    <item name="main_menu_quit" type="id">false</item>
+
+</resources>

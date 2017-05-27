@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" > 
+        
+        <ImageView
+            android:id="@+id/img_nodeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" 
+            android:src="@drawable/pic_equip_0000_0" /> 
+
+        <TextView
+            android:id="@+id/txt_nodeID_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/img_nodeImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="设备编号:" />
+        <TextView
+            android:id="@+id/txt_nodeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt_nodeID_title"
+            android:layout_alignBottom="@+id/txt_nodeID_title"
+            android:layout_toRightOf="@+id/txt_nodeID_title"
+            android:text="@null" />
+        <TextView
+            android:id="@+id/txt_nodeType_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_nodeID_title"
+            android:layout_below="@+id/txt_nodeID_title"
+            android:layout_marginTop="10dp"
+            android:text="设备类型:" />
+        <TextView
+            android:id="@+id/txt_nodeType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txt_nodeType_title"
+            android:layout_toRightOf="@+id/txt_nodeType_title"
+            android:text="@null" />
+        <TextView
+            android:id="@+id/txt_nodeData_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_nodeType_title"
+            android:layout_below="@+id/txt_nodeType_title"
+            android:layout_marginTop="10dp"
+            android:text="设备数据:" />
+        <TextView
+            android:id="@+id/txt_nodeData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt_nodeData_title"
+            android:layout_alignBottom="@+id/txt_nodeData_title"
+            android:layout_toRightOf="@+id/txt_nodeData_title"
+            android:text="@null" />
+        <TextView
+            android:id="@+id/txt_updateTime_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_nodeData_title"
+            android:layout_below="@+id/txt_nodeData_title"
+            android:layout_marginTop="10dp"
+            android:text="更新时间:" /> 
+        <TextView
+            android:id="@+id/txt_updateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt_updateTime_title"
+            android:layout_alignBottom="@+id/txt_updateTime_title"
+            android:layout_toRightOf="@+id/txt_updateTime_title"
+            android:text="@null" />
+
+        
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_trunon" />
+
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_trunoff" />
+
+</LinearLayout>

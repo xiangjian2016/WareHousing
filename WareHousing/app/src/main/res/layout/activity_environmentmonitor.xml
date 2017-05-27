@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_default_bg" >
+
+    <include
+        android:id="@id/bt_createtask_title_layout"
+        layout="@layout/activity_common_title_bar" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bt_createtask_title_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/content_default_bg"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <com.zigcloud.warehousing.widget.Gallery3D
+            android:id="@+id/gal_rooms"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"  
+            android:spacing="30dp"
+            android:unselectedAlpha="128" />
+        
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_above="@+id/gal_rooms"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/view_loading_error"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/view_loading_error"
+                android:visibility="gone" />
+            
+            <include
+                android:id="@+id/view_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/view_loading"
+                android:visibility="gone" />
+
+            <GridView
+                android:id="@+id/gdv_equipments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:numColumns="1"
+                android:padding="10dp"
+                android:verticalSpacing="10dp"
+                android:visibility="visible" >
+            </GridView> 
+            
+        </LinearLayout>
+  
+    </RelativeLayout> 
+</RelativeLayout>

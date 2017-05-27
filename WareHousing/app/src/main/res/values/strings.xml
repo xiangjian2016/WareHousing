@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">智能直播TV</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="exit_dialog_title">提示信息</string>
+    <string name="exit_dialog_message">再按一次退出程序</string>
+    <string name="login">登录</string>
+    <string name="search">查询</string>
+    <string name="save_password">保存密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="username">admin</string>
+    <string name="password">admin</string>
+    <string name="username_lable">用户：</string>
+    <string name="password_lable">密码：</string>
+    <string name="search_result_title">查询结果</string>
+    <string name="search_result_fail_nostudent">未找到该学生信息,验证失败！</string>
+    <string name="search_result_fail_toofast">查询间隔太短，请稍后再试！</string>
+    <string name="search_result_ok">已找到该学生信息,验证成功！</string>
+    <string name="main_page_metro_sensce_model">情景模式</string>
+    <string name="main_page_metro_my_room">我的房间</string>
+    <string name="main_page_metro_equipment_monitor">家用电器</string>
+    <string name="main_page_metro_camera_monitor">视频监控</string>
+    <string name="main_page_metro_more">更多</string>
+    <string name="main_page_metro_config">系统配置</string>
+    <string name="main_page_metro_student_info">学生信息</string>
+    <string name="main_page_metro_asynchronous_student_info">同步考勤信息</string>
+    <string name="prompt">请将卡片对准扫描区域</string>
+    <string name="save">保存</string>
+    <string name="quit">退出</string>
+    <string name="server_ip">服务器IP</string>
+    <string name="loading">正在加载...</string>
+    <string name="loading_error">加载失败,请确认网络连接！</string>
+    <string name="config_scan_inteval_set">学生考勤最小间隔</string>
+    <string name="config_student_show_time">学生信息显示时间</string>
+    <string name="config_standard_scan_inteval">标准模式考勤间隔</string>
+    <string name="config_quick_scan_interval">快速模式扫描间隔</string>
+    <string name="config_flashlight_set">闪光灯设置</string>
+    <string name="config_synchronous_scan_record">同步学生考勤记录</string>
+    <string name="config_synchronous_scan_record_running">正在同步考勤记录...</string>
+    <string name="config_request_inteval_lable">最小间隔(秒):</string>
+    <string name="config_student_show_time_lable">显示时间(秒):</string>
+
+
+    <string name="http_request_timeout_msg">请求超时，请检查网络连接!</string>
+    <string name="unit_second">秒</string>
+    <string name="goods_cardid">货物编号：</string>
+    <string name="goods_name">货物名称：</string>
+    <string name="goods_address">货物产地：</string>
+    <string name="goods_user">入库人员：</string>
+    <string name="operate_option">操作选项：</string>
+
+    <string name="title_models">情景模式</string>
+    <string name="title_myroom">我的房间</string>
+    <string name="title_myfunction">家用电器</string>
+    <string name="title_environment_monitor">环境监控</string>
+    <string name="title_camera_monitor">视频监控</string>
+    <string name="title_goods_import">物品出库</string>
+    <string name="title_goods_outport">物品出库</string>
+    <string name="title_goods_search">物品查询</string>
+
+    <string name="str_trunon">打开</string>
+    <string name="str_trunoff">关闭</string>
+    <string name="equipment_name_0000">未知</string>
+    <string name="equipment_name_0001">红外传感器</string>
+    <string name="equipment_name_0002">光照传感器</string>
+    <string name="equipment_name_0003">烟雾传感器</string>
+    <string name="equipment_name_0004">燃气传感器</string>
+    <string name="equipment_name_0005">压力传感器</string>
+    <string name="equipment_name_0006">窗帘</string>
+    <string name="equipment_name_0007">门</string>
+    <string name="equipment_name_0008">电子锁</string>
+    <string name="equipment_name_0009">灯</string>
+    <string name="equipment_name_000a">壁灯</string>
+    <string name="equipment_name_000b">墙灯</string>
+    <string name="equipment_name_000c">报警器</string>
+    <string name="equipment_name_000d">电风扇</string>
+    <string name="equipment_name_000e">电视</string>
+    <string name="equipment_name_000f">电源</string>
+    <string name="equipment_name_0010">微波炉</string>
+    <string name="equipment_name_0011">电饭煲</string>
+
+    <string-array name="equipment_dataname_0000">
+        <item>未知</item>
+    </string-array>
+    <string-array name="equipment_dataname_0001">
+        <item>红外</item>
+    </string-array>
+    <string-array name="equipment_dataname_0002">
+        <item>光照</item>
+    </string-array>
+    <string-array name="equipment_dataname_0003">
+        <item>烟雾</item>
+    </string-array>
+    <string-array name="equipment_dataname_0004">
+        <item>燃气</item>
+    </string-array>
+    <string-array name="equipment_dataname_0005">
+        <item>压力</item>
+    </string-array>
+    <string-array name="equipment_dataname_0006">
+        <item>窗帘</item>
+    </string-array>
+    <string-array name="equipment_dataname_0007">
+        <item>门</item>
+    </string-array>
+    <string-array name="equipment_dataname_0008">
+        <item>电子锁</item>
+    </string-array>
+    <string-array name="equipment_dataname_0009">
+        <item>灯</item>
+    </string-array>
+    <string-array name="equipment_dataname_000a">
+        <item>壁灯</item>
+    </string-array>
+    <string-array name="equipment_dataname_000b">
+        <item>墙灯</item>
+    </string-array>
+    <string-array name="equipment_dataname_000c">
+        <item>报警器</item>
+    </string-array>
+    <string-array name="equipment_dataname_000d">
+        <item>电风扇</item>
+    </string-array>
+    <string-array name="equipment_dataname_000e">
+        <item>电视</item>
+    </string-array>
+    <string-array name="equipment_dataname_000f">
+        <item>电源</item>
+    </string-array>
+    <string-array name="equipment_dataname_0010">
+        <item>微波炉</item>
+    </string-array>
+    <string-array name="equipment_dataname_0011">
+        <item>电饭煲</item>
+    </string-array>
+
+
+</resources>

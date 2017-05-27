@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:background="@null" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_log"
+                android:contentDescription="@string/app_name" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical"
+		    android:paddingLeft="30dp"
+		    android:paddingRight="30dp"
+		    android:layout_marginTop="30dp" >
+            
+            <RelativeLayout
+	            android:id="@+id/rl_request_inteval"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/selector_corner_round_top" 
+	            android:orientation="vertical"
+	            android:paddingBottom="10dp"
+	            android:paddingLeft="25dp"
+	            android:paddingTop="10dp" >
+	
+	            <EditText
+	                android:id="@+id/editText1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignParentTop="true"
+	                android:layout_toRightOf="@+id/tv_request_inteval_lable"
+	                android:inputType="textPersonName" 
+	                android:background="@null"
+	                android:hint="@string/username" />
+	
+	            <TextView
+	                android:id="@+id/tv_request_inteval_lable"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignBaseline="@+id/editText1"
+	                android:layout_alignBottom="@+id/editText1"
+	                android:layout_alignParentLeft="true"
+	                android:text="@string/username_lable"
+	                android:textColor="@color/gray" />
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:id="@+id/rl_flashlight_set"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/selector_corner_round_bottom" 
+	            android:orientation="vertical"
+	            android:paddingBottom="10dp"
+	            android:paddingLeft="25dp"
+	            android:paddingTop="10dp" >
+	
+	            <EditText
+	                android:id="@+id/editText2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignParentTop="true"
+	                android:layout_toRightOf="@+id/tv_flashlight_set_lable"
+	                android:inputType="textPassword"
+	                android:background="@null"
+	                android:ems="10"
+	                android:text="@string/username" 
+	                android:hint="@string/username"  />
+	
+	            <TextView
+	                android:id="@+id/tv_flashlight_set_lable"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignBaseline="@+id/editText2"
+	                android:layout_alignBottom="@+id/editText2"
+	                android:layout_alignParentLeft="true"
+	                android:text="@string/password_lable"
+	                android:textColor="@color/gray" />
+	        </RelativeLayout>
+	        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/metro_login_button_selector" 
+                android:text="@string/login"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" 
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="10dp" >
+
+             <CheckBox
+                 android:id="@+id/chk_savepassword"
+                 style="@style/CustomCheckboxTheme"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:checked="true"
+                 android:text="@string/save_password"
+                 android:textColor="#FFFFFF"
+                 android:textSize="13sp" />
+
+            <CheckBox
+                android:id="@+id/chk_autologin"
+                style="@style/CustomCheckboxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/auto_login"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+  
+</RelativeLayout>
